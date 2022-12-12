@@ -1,0 +1,41 @@
+.searchAndSortContainer {
+  margin-bottom: 2rem;
+}
+
+.paginationContainer {
+  z-index: 999;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  margin: 24px 0 24px auto;
+  padding: 0.5rem;
+  width: max-content;
+}
+
+.pagesSelect {
+  display: flex;
+  max-width: 12.5rem;
+  align-items: center;
+
+  label {
+    font-size: 12px;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  [role="combobox"] {
+    max-width: 3.875rem;
+  }
+}
+
+.itemsPageContainer {
+  width: 100%;
+}
+
+.loadingContainer {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
